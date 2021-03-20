@@ -10,7 +10,7 @@ namespace Producto.Models
     {
         [Key]
         [Required]
-        [StringLength(99999,ErrorMessage ="The field {0} must contain between {1} and {99999} characters",MinimumLength =1)]
+
         public int ProductID { get; set; }
 
 
